@@ -1,0 +1,43 @@
+.header-main {
+    font-size: 1.2rem;
+  background: linear-gradient(
+    to top right,
+    #07006f 1%,
+    #170523 20%,
+    #340229 50%,
+    #75045d 100%
+  );
+  color: #fff;
+  .header-content {
+    position: fixed;
+    top: 0;
+    background: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .header-left{
+        display: flex;
+        align-items: center;
+        
+        span{
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    }
+    button{
+            padding: 8px;
+            font-size: 1.1rem;
+            margin-right: 10px;
+
+    }
+  }
+  .header-outlet {
+    padding-top: 96px;
+    min-height: 85vh;
+  }
+}
+
+
+

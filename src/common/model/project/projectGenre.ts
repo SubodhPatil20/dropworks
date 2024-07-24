@@ -1,0 +1,37 @@
+export enum ProjectGenre {
+  Pop = 1,
+  Rock = 2,
+  HipHop = 3,
+  Latin = 4,
+  EDM = 5,
+  RNB = 6,
+  Country = 7,
+  Folk = 8,
+  Classical = 9,
+  Jazz = 10,
+  Metal = 11,
+  EasyListening = 12,
+  NewAge = 13,
+  Blues = 14,
+  Traditional = 15,
+  Other = 16
+}
+
+export const projectGenreDictionary: Record<ProjectGenre, string> = {
+  [ProjectGenre.Pop]: 'Pop',
+  [ProjectGenre.Rock]: 'Rock',
+  [ProjectGenre.HipHop]: 'Hip Hop',
+  [ProjectGenre.Latin]: 'Latin',
+  [ProjectGenre.EDM]: 'EDM',
+  [ProjectGenre.RNB]: 'R&B',
+  [ProjectGenre.Country]: 'Country',
+  [ProjectGenre.Folk]: 'Folk',
+  [ProjectGenre.Classical]: 'Classical',
+  [ProjectGenre.Jazz]: 'Jazz',
+  [ProjectGenre.Metal]: 'Metal',
+  [ProjectGenre.EasyListening]: 'Easy listening',
+  [ProjectGenre.NewAge]: 'New age',
+  [ProjectGenre.Blues]: 'Blues',
+  [ProjectGenre.Traditional]: 'Traditional',
+  [ProjectGenre.Other]: 'Other',
+};
